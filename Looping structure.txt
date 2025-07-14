@@ -1,0 +1,46 @@
+Looping structure:
+
+loops are used to repeat a block of code for certain number of times.
+
+student: bhargavi
+mahesh
+
+	step1: candidate should all certificates
+	step2: rank certificate
+	step3: pay tution on full by check or internet banking
+	step4: proper uniform
+	step5: laptop
+
+
+for loop ===> onboarding the students
+
+
+break:
+
+The break statement is used to stop the loop immediately when the condition is satisfied
+
+Note: When python hits the break statement inside a "loop" - no matter if it is there directly inside the loop or its in conditions. Its breaks entire loop.
+
+
+
+while loop ===> when condition criteria met you will stop looping/searching further more
+
+	for vs while:
+
+	- For loop typically used when you have a limited number of times you want to repeat a block of code
+
+	- A while loop is used when you want to repeat a block of code while a particular condition is true.
+
+
+Task:
+
+Now you have to pick it up the phone number
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,3 @@
-
 This is dileep data
 Conditions:
 
@@ -63,6 +62,35 @@ Examples:
 		i wont accept the job offer at all.
 
 
+Nested-if:
+
+
+	if 12th standard student gets 70%
+
+	   if that student gets rank of less > 1000 in IIT exam
+
+		if the students gets the seat in Computer science
+
+		    if the students graduates with more than 90%
+
+			the student get a job at apple.
+
+		    else
+			the students don't get job at apple
+                else
+	
+		    the student cant make it as computer science engineer
+           else
+		the student cant make to the top 1 tier college
+        else
+		the students needs to keep effort more
+
+Task:
+
+Sugar levels 5.9 to 7
+
+Try your own nested-if example
+
 
 
 
@@ -77,3 +105,67 @@ Examples:
 
 
 	
+=======
+
+This is dileep data
+Conditions:
+
+We use the conditional statement to run a block of code once condition is met.
+
+if statement: 
+
+Examples:
+
+	if i get job in delhi ===> here, the condition is getting a job in delhi
+
+		i have to search of place to live and transport
+
+if-else statement:
+
+Examples:
+
+	if i get job in delhi ===> here, the condition is getting a job in delhi
+
+		i have to search of place to live and transport
+	else
+
+		i wont accept the job offer at all.
+
+
+2:
+
+	if user_name is in database:
+
+		already username taken
+
+	elif user_name is empty
+
+		Username cannot be blank
+
+	else
+		
+		it is available
+
+
+if - elif - else:
+
+elif = else and if
+
+
+Examples:
+
+	if i get job in delhi ===> here, the condition is getting a job in delhi
+
+		i have to search of place to live and transport
+
+	elif if i get job in banglore:
+	
+		i dont need search for the place or transport
+
+	elif if i get job in pune:
+
+		i have to shift to the pune immediately
+		
+	else
+
+		i wont accept the job offer at all.

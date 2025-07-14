@@ -1,0 +1,149 @@
+S3 = S imple S torage S ervice
+
+What is this service and where we use it in realtime ?
+
+1. Flexibility 
+2. Cost effective
+
+1. Storing the environment variables
+2. storing the logs of the application
+3. data transfer
+******4. static web hosting
+
+ARN = Amazon Resource Name
+
+arn:aws:iam::793120837001:policy/test-policy
+
+arn:aws:iam::346296429462:policy/test-policy
+
+arn:aws:s3:::venky-1223
+
+arn:aws:sg:us-east-1:793120837001:default
+
+
+arn:cloud:service:region:account-ID:subservicenameOfTheResource
+
+
+objects == files/folders
+
+encryption == passphrase == secretkey == passwords
+
+ACL = Access control list..
+
+
+S3 cache has long period of data
+
+
+Lifecycle rules or storage classes:
+
+
+1. Standard
+
+2. Intelligent tier
+
+3. Glacier instant retrieval ===> archieve
+
+4. Deep glacier ===> Deep archieve 
+
+
+Where you use this kind of storage classes in application data ?
+
+
+1. logs
+
+	1TB-5TB per 15 days
+
+FIFO
+
+venky swiggy 2025 - April 15th - May 15th ===> logging tool
+
+S3- deep glacier  S3-Glacier		S3-Intellignet tier		S3- standard class			tool
+180		120			April-15th			April 16th -May15th			June17th61
+		
+
+
+Static Web Hosting:
+
+Static pages host ===> documentation, blogs, landing pages ==> HTML, CSS , JS, images
+
+Static content: It doesn't change dynamically based on the user input.
+
+http == hyper text transfer protocol
+
+https == hyper text transfer protocol secure
+
+
+
+Static web hosting = S3 + Cloudfront
+
+
+CloudFront ===> static web hosting ==> location, security
+
+	CDN = Content Delivery Network
+
+
+Edge location
+
+CloudFront distribution
+
+
+what is origin and behavior ?
+
+https://d8dgw0q9g2dcf.cloudfront.net
+
+
+replication rules
+
+IAM access key ==> awscli
+
+Session manager
+
+
+types of interfaces:
+
+1. GUI = console ==> GUI + CLI
+
+2. CLI
+
+
+aws cli
+
+access_key = 2
+
+secret_key = 2
+
+single-sign-on
+
+
+steps:
+
+1. awscli packages download
+2. configuring your account..
+
+	profiles
+
+
+aws s3api create-bucket --bucket venky-0207 --region us-east-1	
+
+aws ec2 run-instances --image-id ami-020cba7c55df1f615 --count 1 --instance-type t3.small --key-name test-siva --security-group-ids sg-0f16b5c86c5a5b0eb --subnet-id subnet-0d1e3ecad5d2854ad --region us-east-1 --profile mahesh
+
+
+
+
+
+
+aws ssm start-session --target "i-0d96e95343b33f707"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
